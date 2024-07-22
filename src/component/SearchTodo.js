@@ -22,7 +22,7 @@ class SearchTodo extends Component {
     // HTTP Client to send a GET request
     Axios({
       method: "GET",
-      url: "http://localhost:8080/items/searchitem",
+      url: "http://localhost:8080/items/search",
       headers: {
         "Content-Type": "application/json" 
       },
